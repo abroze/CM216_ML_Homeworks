@@ -1,0 +1,32 @@
+2023-03-06 19:17:01,980 INFO    Thread-3  :54891 [wandb_setup.py:_flush():68] Configure stats pid to 54891
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_setup.py:_flush():68] Loading settings from /Users/albanbroze/.config/wandb/settings
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_setup.py:_flush():68] Loading settings from /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/settings
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cme216_wandb_demo', 'entity': 'abroze', 'root_dir': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6', 'sweep_id': 'g71n5opk', 'run_id': '6b2u0jxd', 'sweep_param_path': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/sweep-g71n5opk/config-6b2u0jxd.yaml'}
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'Homework6/wandb_demo.py', 'program': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb_demo.py'}
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_init.py:_log_setup():492] Logging user logs to /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230306_191701-6b2u0jxd/logs/debug.log
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230306_191701-6b2u0jxd/logs/debug-internal.log
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_init.py:init():532] calling init triggers
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 8, 'lr': 0.005, 'n_channels': 4, 'reg_param': 0}
+config: {}
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_init.py:init():588] starting backend
+2023-03-06 19:17:01,981 INFO    Thread-3  :54891 [wandb_init.py:init():592] setting up manager
+2023-03-06 19:17:01,990 INFO    Thread-3  :54891 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-06 19:17:01,995 INFO    Thread-3  :54891 [wandb_init.py:init():599] backend started and connected
+2023-03-06 19:17:02,000 INFO    Thread-3  :54891 [wandb_run.py:_config_callback():1250] config_cb None None {'batch_size': 8, 'lr': 0.005, 'n_channels': 4, 'reg_param': 0}
+2023-03-06 19:17:02,002 INFO    Thread-3  :54891 [wandb_init.py:init():687] updated telemetry
+2023-03-06 19:17:02,038 INFO    Thread-3  :54891 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-06 19:17:02,318 INFO    Thread-3  :54891 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-06 19:17:02,404 INFO    Thread-3  :54891 [wandb_run.py:_on_init():2143] got version response 
+2023-03-06 19:17:02,404 INFO    Thread-3  :54891 [wandb_init.py:init():775] starting run threads in backend
+2023-03-06 19:17:08,174 INFO    Thread-3  :54891 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-06 19:17:08,174 INFO    Thread-3  :54891 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-06 19:17:08,174 INFO    Thread-3  :54891 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-06 19:17:08,174 INFO    Thread-3  :54891 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-06 19:17:08,174 INFO    Thread-3  :54891 [wandb_init.py:init():817] run started, returning control to user process
+2023-03-06 19:19:58,270 INFO    Thread-3  :54891 [wandb_run.py:_finish():1854] finishing run abroze/cme216_wandb_demo/6b2u0jxd
+2023-03-06 19:19:58,270 INFO    Thread-3  :54891 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-06 19:19:58,270 INFO    Thread-3  :54891 [wandb_run.py:_restore():2066] restore
+2023-03-06 19:19:58,270 INFO    Thread-3  :54891 [wandb_run.py:_restore():2072] restore done
+2023-03-06 19:20:03,371 INFO    Thread-3  :54891 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-06 19:20:03,374 INFO    Thread-3  :54891 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-06 19:20:03,385 INFO    Thread-3  :54891 [wandb_run.py:_footer_sync_info():3398] logging synced files

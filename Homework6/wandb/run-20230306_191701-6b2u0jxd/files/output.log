@@ -1,0 +1,12 @@
+/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/utils.py:16: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.
+  fig, axs = plt.subplots(4, 5, figsize=(15, 12))
+Epoch [4/40], Step [519/519],                     Training Loss: 0.0042, Validation Loss: 0.0045,                     Val. error (in %) = 10.24%
+Epoch [8/40], Step [519/519],                     Training Loss: 0.0015, Validation Loss: 0.0043,                     Val. error (in %) = 9.64%
+Epoch [12/40], Step [519/519],                     Training Loss: 0.0033, Validation Loss: 0.0035,                     Val. error (in %) = 8.97%
+Epoch [16/40], Step [519/519],                     Training Loss: 0.0053, Validation Loss: 0.0036,                     Val. error (in %) = 8.95%
+Epoch [20/40], Step [519/519],                     Training Loss: 0.0045, Validation Loss: 0.0036,                     Val. error (in %) = 9.12%
+Epoch [24/40], Step [519/519],                     Training Loss: 0.0014, Validation Loss: 0.0034,                     Val. error (in %) = 8.83%
+Epoch [28/40], Step [519/519],                     Training Loss: 0.0023, Validation Loss: 0.0034,                     Val. error (in %) = 8.95%
+Epoch [32/40], Step [519/519],                     Training Loss: 0.0033, Validation Loss: 0.0036,                     Val. error (in %) = 9.20%
+Epoch [36/40], Step [519/519],                     Training Loss: 0.0087, Validation Loss: 0.0032,                     Val. error (in %) = 8.62%
+Epoch [40/40], Step [519/519],                     Training Loss: 0.0107, Validation Loss: 0.0033,                     Val. error (in %) = 8.83%
