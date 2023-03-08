@@ -1,0 +1,12 @@
+/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/utils.py:16: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig, axs = plt.subplots(4, 5, figsize=(15, 12))
+Epoch [15/150], Step [4/4],                     Training Loss: 0.5069, Validation Loss: 0.5107,                     Val. error (in %) = 94.84%
+Epoch [30/150], Step [4/4],                     Training Loss: 0.3610, Validation Loss: 0.3599,                     Val. error (in %) = 79.47%
+Epoch [45/150], Step [4/4],                     Training Loss: 0.1187, Validation Loss: 0.1125,                     Val. error (in %) = 44.70%
+Epoch [60/150], Step [4/4],                     Training Loss: 0.0181, Validation Loss: 0.0188,                     Val. error (in %) = 18.28%
+Epoch [75/150], Step [4/4],                     Training Loss: 0.0057, Validation Loss: 0.0069,                     Val. error (in %) = 10.97%
+Epoch [90/150], Step [4/4],                     Training Loss: 0.0040, Validation Loss: 0.0044,                     Val. error (in %) = 8.73%
+Epoch [105/150], Step [4/4],                     Training Loss: 0.0031, Validation Loss: 0.0036,                     Val. error (in %) = 7.87%
+Epoch [120/150], Step [4/4],                     Training Loss: 0.0029, Validation Loss: 0.0032,                     Val. error (in %) = 7.43%
+Epoch [135/150], Step [4/4],                     Training Loss: 0.0023, Validation Loss: 0.0028,                     Val. error (in %) = 6.97%
+Epoch [150/150], Step [4/4],                     Training Loss: 0.0022, Validation Loss: 0.0025,                     Val. error (in %) = 6.54%

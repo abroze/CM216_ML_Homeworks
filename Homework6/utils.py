@@ -10,7 +10,7 @@ def l2_pt_error(pred, true):
 
 
 def plot_perm_and_temp(m_field, u_field, model_pred, epoch):
-    """Plot the pressure (u_field) and the permeability (m_field)
+    """Plot the pressure and the permeability
     """
     cmap = "inferno"
     fig, axs = plt.subplots(4, 5, figsize=(15, 12))
