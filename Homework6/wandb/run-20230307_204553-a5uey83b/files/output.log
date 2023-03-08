@@ -1,0 +1,5 @@
+
+Epoch [15/150], Step [4/4],                     Training Loss: 0.4752, Validation Loss: 0.4698,                     Val. error (in %) = 91.04%
+Epoch [30/150], Step [4/4],                     Training Loss: 0.3195, Validation Loss: 0.3075,                     Val. error (in %) = 73.83%
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.
+Total time taken: 76.14928579330444

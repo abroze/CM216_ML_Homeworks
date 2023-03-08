@@ -19,7 +19,7 @@ def plot_perm_and_temp(m_field, u_field, model_pred, epoch):
         divider = make_axes_locatable(axs[0, i])
         cax = divider.append_axes("right", size="5%", pad=0.05)
         fig.colorbar(im, ax=axs[0, i], cax=cax)
-        axs[0, i].set_title(f"Perm. {i}")
+        axs[0, i].set_title(f"Perm. {i+1}")
         axs[0, i].set_xticks([])
         axs[0, i].set_yticks([])
 
@@ -27,7 +27,7 @@ def plot_perm_and_temp(m_field, u_field, model_pred, epoch):
         divider = make_axes_locatable(axs[1, i])
         cax = divider.append_axes("right", size="5%", pad=0.05)
         fig.colorbar(im, ax=axs[1, i], cax=cax)
-        axs[1, i].set_title(f"True pressure. {i}")
+        axs[1, i].set_title(f"True pressure. {i+1}")
         axs[1, i].set_xticks([])
         axs[1, i].set_yticks([])
 
@@ -35,7 +35,7 @@ def plot_perm_and_temp(m_field, u_field, model_pred, epoch):
         divider = make_axes_locatable(axs[2, i])
         cax = divider.append_axes("right", size="5%", pad=0.05)
         fig.colorbar(im, ax=axs[2, i], cax=cax)
-        axs[2, i].set_title(f"Pred. pressure. {i}")
+        axs[2, i].set_title(f"Pred. pressure. {i+1}")
         axs[2, i].set_xticks([])
         axs[2, i].set_yticks([])
 
