@@ -1,0 +1,252 @@
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([922, 128, 2, 2])
+nish
+Epoch [15/150], Step [4/4],                     Training Loss: 0.4994, Validation Loss: 0.4937,                     Val. error (in %) = 93.25%
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([614, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+trql
+x shape:  torch.Size([1024, 128, 2, 2])
+nish
+Total time taken: 44.77777695655823
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.

@@ -1,0 +1,41 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2023-03-08T01:20:32.767462",
+    "startedAt": "2023-03-08T01:20:32.205742",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Homework6/Homework6-jvsc-2cd19a80-4773-4668-b22d-ec1508d076b04564ecd0-acea-4a9f-81ac-c48884f67f38.ipynb",
+    "root": "/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework",
+    "git": {
+        "remote": "https://github.com/abroze/CME216-Machine-Learning-Homework.git",
+        "commit": "7113bf3941fd167aa421d63c305551d3d3ef8737"
+    },
+    "email": "abroze@stanford.edu",
+    "host": "DN0a2337a0.SUNet",
+    "username": "albanbroze",
+    "executable": "/Users/albanbroze/opt/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 20.809749603271484
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

@@ -1,0 +1,178 @@
+2023-03-07 20:34:49,902 INFO    StreamThr :65117 [internal.py:wandb_internal():87] W&B internal server running at pid: 65117, started at: 2023-03-07 20:34:49.901259
+2023-03-07 20:34:49,903 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: status
+2023-03-07 20:34:49,922 INFO    WriterThread:65117 [datastore.py:open_for_write():85] open: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/run-pxga96qu.wandb
+2023-03-07 20:34:49,923 DEBUG   SenderThread:65117 [sender.py:send():336] send: header
+2023-03-07 20:34:49,981 DEBUG   SenderThread:65117 [sender.py:send():336] send: run
+2023-03-07 20:34:50,241 INFO    SenderThread:65117 [dir_watcher.py:__init__():219] watching files in: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files
+2023-03-07 20:34:50,241 INFO    SenderThread:65117 [sender.py:_start_run_threads():1078] run started: pxga96qu with start time 1678250089.902845
+2023-03-07 20:34:50,241 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: summary_record
+2023-03-07 20:34:50,241 INFO    SenderThread:65117 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-07 20:34:50,250 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: check_version
+2023-03-07 20:34:50,250 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: check_version
+2023-03-07 20:34:50,340 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: run_start
+2023-03-07 20:34:50,373 DEBUG   HandlerThread:65117 [system_info.py:__init__():31] System info init
+2023-03-07 20:34:50,373 DEBUG   HandlerThread:65117 [system_info.py:__init__():46] System info init done
+2023-03-07 20:34:50,373 INFO    HandlerThread:65117 [system_monitor.py:start():183] Starting system monitor
+2023-03-07 20:34:50,374 INFO    SystemMonitor:65117 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-07 20:34:50,374 INFO    HandlerThread:65117 [system_monitor.py:probe():204] Collecting system info
+2023-03-07 20:34:50,375 INFO    SystemMonitor:65117 [interfaces.py:start():187] Started cpu monitoring
+2023-03-07 20:34:50,375 DEBUG   HandlerThread:65117 [system_info.py:probe():195] Probing system
+2023-03-07 20:34:50,375 INFO    SystemMonitor:65117 [interfaces.py:start():187] Started disk monitoring
+2023-03-07 20:34:50,376 INFO    SystemMonitor:65117 [interfaces.py:start():187] Started memory monitoring
+2023-03-07 20:34:50,376 INFO    SystemMonitor:65117 [interfaces.py:start():187] Started network monitoring
+2023-03-07 20:34:50,394 DEBUG   HandlerThread:65117 [system_info.py:_probe_git():180] Probing git
+2023-03-07 20:34:50,443 DEBUG   HandlerThread:65117 [system_info.py:_probe_git():188] Probing git done
+2023-03-07 20:34:50,443 DEBUG   HandlerThread:65117 [system_info.py:probe():240] Probing system done
+2023-03-07 20:34:50,443 DEBUG   HandlerThread:65117 [system_monitor.py:probe():213] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.12', 'heartbeatAt': '2023-03-08T04:34:50.375523', 'startedAt': '2023-03-08T04:34:49.886479', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Homework6/Homework6-jvsc-96a1c161-aeae-464c-8cc6-74b7f30a685c54b49ff0-d343-447f-a4f3-4a026ea7ea81.ipynb', 'root': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework', 'git': {'remote': 'https://github.com/abroze/CME216-Machine-Learning-Homework.git', 'commit': '7113bf3941fd167aa421d63c305551d3d3ef8737'}, 'email': 'abroze@stanford.edu', 'host': 'DN0a1f8a29.SUNet', 'username': 'albanbroze', 'executable': '/Users/albanbroze/opt/anaconda3/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'total': 460.4317207336426, 'used': 20.809749603271484}, 'memory': {'total': 8.0}}
+2023-03-07 20:34:50,443 INFO    HandlerThread:65117 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-07 20:34:50,443 INFO    HandlerThread:65117 [system_monitor.py:probe():217] Publishing system info
+2023-03-07 20:34:50,443 DEBUG   HandlerThread:65117 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-07 20:34:50,444 DEBUG   HandlerThread:65117 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-07 20:34:50,444 DEBUG   HandlerThread:65117 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-07 20:34:51,248 INFO    Thread-13 :65117 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/wandb-summary.json
+2023-03-07 20:34:51,248 INFO    Thread-13 :65117 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/requirements.txt
+2023-03-07 20:34:51,248 INFO    Thread-13 :65117 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/conda-environment.yaml
+2023-03-07 20:34:56,177 DEBUG   HandlerThread:65117 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-07 20:34:56,177 INFO    HandlerThread:65117 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-07 20:34:56,179 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: status_report
+2023-03-07 20:34:56,180 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-07 20:34:56,180 DEBUG   SenderThread:65117 [sender.py:send():336] send: files
+2023-03-07 20:34:56,180 INFO    SenderThread:65117 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-07 20:34:56,194 DEBUG   SenderThread:65117 [sender.py:send():336] send: telemetry
+2023-03-07 20:34:56,196 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-07 20:34:56,196 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: stop_status
+2023-03-07 20:34:56,267 INFO    Thread-13 :65117 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/conda-environment.yaml
+2023-03-07 20:34:56,267 INFO    Thread-13 :65117 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/wandb-metadata.json
+2023-03-07 20:34:56,777 INFO    wandb-upload_0:65117 [upload_job.py:push():138] Uploaded file /var/folders/0d/0wj611gn3mnc95mg85qp54q80000gn/T/tmp8i7_4zorwandb/fb6u60nv-wandb-metadata.json
+2023-03-07 20:35:01,320 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: status_report
+2023-03-07 20:35:06,335 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: status_report
+2023-03-07 20:35:11,205 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-07 20:35:11,356 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: status_report
+2023-03-07 20:35:16,375 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: status_report
+2023-03-07 20:35:16,528 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-07 20:35:21,405 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: status_report
+2023-03-07 20:35:21,549 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-07 20:35:22,393 INFO    Thread-13 :65117 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/config.yaml
+2023-03-07 20:35:22,958 DEBUG   SenderThread:65117 [sender.py:send():336] send: telemetry
+2023-03-07 20:35:22,959 DEBUG   SenderThread:65117 [sender.py:send():336] send: exit
+2023-03-07 20:35:22,959 INFO    SenderThread:65117 [sender.py:send_exit():559] handling exit code: 1
+2023-03-07 20:35:22,960 INFO    SenderThread:65117 [sender.py:send_exit():561] handling runtime: 32
+2023-03-07 20:35:22,961 INFO    SenderThread:65117 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-07 20:35:22,961 INFO    SenderThread:65117 [sender.py:send_exit():567] send defer
+2023-03-07 20:35:22,961 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:22,961 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-07 20:35:22,962 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:22,962 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-07 20:35:22,962 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 1
+2023-03-07 20:35:22,962 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:22,962 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-07 20:35:22,962 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:22,962 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-07 20:35:22,962 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 2
+2023-03-07 20:35:22,962 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:22,962 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-07 20:35:22,963 INFO    HandlerThread:65117 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-07 20:35:22,980 DEBUG   SystemMonitor:65117 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-07 20:35:22,980 DEBUG   SystemMonitor:65117 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-07 20:35:22,980 DEBUG   SystemMonitor:65117 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-07 20:35:22,981 INFO    HandlerThread:65117 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-07 20:35:22,981 INFO    HandlerThread:65117 [interfaces.py:finish():199] Joined disk monitor
+2023-03-07 20:35:22,981 INFO    HandlerThread:65117 [interfaces.py:finish():199] Joined memory monitor
+2023-03-07 20:35:22,981 INFO    HandlerThread:65117 [interfaces.py:finish():199] Joined network monitor
+2023-03-07 20:35:22,982 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:22,982 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-07 20:35:22,982 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 3
+2023-03-07 20:35:22,982 DEBUG   SenderThread:65117 [sender.py:send():336] send: stats
+2023-03-07 20:35:22,982 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:22,982 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-07 20:35:22,982 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:22,982 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-07 20:35:22,982 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 4
+2023-03-07 20:35:22,983 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:22,983 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-07 20:35:22,983 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:22,983 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-07 20:35:22,983 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 5
+2023-03-07 20:35:22,983 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:22,983 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-07 20:35:22,983 DEBUG   SenderThread:65117 [sender.py:send():336] send: summary
+2023-03-07 20:35:22,983 INFO    SenderThread:65117 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-07 20:35:22,984 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:22,984 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-07 20:35:22,984 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 6
+2023-03-07 20:35:22,984 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:22,984 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-07 20:35:22,984 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:22,984 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-07 20:35:22,987 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: status_report
+2023-03-07 20:35:23,104 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 7
+2023-03-07 20:35:23,104 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:23,104 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-07 20:35:23,104 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:23,105 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-07 20:35:23,105 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 8
+2023-03-07 20:35:23,105 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:23,105 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-07 20:35:23,105 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:23,105 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-07 20:35:23,105 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 9
+2023-03-07 20:35:23,105 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:23,105 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-07 20:35:23,105 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:23,105 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-07 20:35:23,105 INFO    SenderThread:65117 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-07 20:35:23,399 INFO    Thread-13 :65117 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/config.yaml
+2023-03-07 20:35:23,401 INFO    SenderThread:65117 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/wandb-summary.json
+2023-03-07 20:35:23,402 INFO    SenderThread:65117 [dir_watcher.py:finish():395] scan: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files
+2023-03-07 20:35:23,402 INFO    SenderThread:65117 [dir_watcher.py:finish():409] scan save: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/requirements.txt requirements.txt
+2023-03-07 20:35:23,403 INFO    SenderThread:65117 [dir_watcher.py:finish():409] scan save: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/config.yaml config.yaml
+2023-03-07 20:35:23,408 INFO    SenderThread:65117 [dir_watcher.py:finish():409] scan save: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/wandb-summary.json wandb-summary.json
+2023-03-07 20:35:23,409 INFO    SenderThread:65117 [dir_watcher.py:finish():409] scan save: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/conda-environment.yaml conda-environment.yaml
+2023-03-07 20:35:23,419 INFO    SenderThread:65117 [dir_watcher.py:finish():409] scan save: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/wandb-metadata.json wandb-metadata.json
+2023-03-07 20:35:23,419 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 10
+2023-03-07 20:35:23,420 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:23,424 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-07 20:35:23,425 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:23,425 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-07 20:35:23,426 INFO    SenderThread:65117 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-07 20:35:23,857 INFO    wandb-upload_3:65117 [upload_job.py:push():138] Uploaded file /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/conda-environment.yaml
+2023-03-07 20:35:23,896 INFO    wandb-upload_0:65117 [upload_job.py:push():138] Uploaded file /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/requirements.txt
+2023-03-07 20:35:23,896 INFO    wandb-upload_1:65117 [upload_job.py:push():138] Uploaded file /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/config.yaml
+2023-03-07 20:35:23,902 INFO    wandb-upload_2:65117 [upload_job.py:push():138] Uploaded file /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/files/wandb-summary.json
+2023-03-07 20:35:23,968 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-07 20:35:23,969 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: poll_exit
+2023-03-07 20:35:24,105 INFO    Thread-12 :65117 [sender.py:transition_state():587] send defer: 11
+2023-03-07 20:35:24,106 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:24,106 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-07 20:35:24,107 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:24,107 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-07 20:35:24,107 INFO    SenderThread:65117 [file_pusher.py:join():169] waiting for file pusher
+2023-03-07 20:35:24,107 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 12
+2023-03-07 20:35:24,107 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:24,107 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-07 20:35:24,108 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:24,108 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-07 20:35:24,383 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 13
+2023-03-07 20:35:24,384 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:24,385 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-07 20:35:24,385 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:24,385 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-07 20:35:24,386 INFO    SenderThread:65117 [sender.py:transition_state():587] send defer: 14
+2023-03-07 20:35:24,387 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: defer
+2023-03-07 20:35:24,387 DEBUG   SenderThread:65117 [sender.py:send():336] send: final
+2023-03-07 20:35:24,387 INFO    HandlerThread:65117 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-07 20:35:24,387 DEBUG   SenderThread:65117 [sender.py:send():336] send: footer
+2023-03-07 20:35:24,387 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: defer
+2023-03-07 20:35:24,387 INFO    SenderThread:65117 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-07 20:35:24,390 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-07 20:35:24,390 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: server_info
+2023-03-07 20:35:24,390 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-07 20:35:24,391 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-07 20:35:24,392 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: poll_exit
+2023-03-07 20:35:24,393 DEBUG   SenderThread:65117 [sender.py:send_request():363] send_request: server_info
+2023-03-07 20:35:24,625 DEBUG   HandlerThread:65117 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-07 20:35:24,625 INFO    HandlerThread:65117 [handler.py:finish():842] shutting down handler
+2023-03-07 20:35:25,393 INFO    WriterThread:65117 [datastore.py:close():298] close: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203449-pxga96qu/run-pxga96qu.wandb
+2023-03-07 20:35:25,629 INFO    SenderThread:65117 [sender.py:finish():1504] shutting down sender
+2023-03-07 20:35:25,630 INFO    SenderThread:65117 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-07 20:35:25,630 INFO    SenderThread:65117 [file_pusher.py:join():169] waiting for file pusher

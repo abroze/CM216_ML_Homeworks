@@ -1,0 +1,102 @@
+2023-03-07 20:27:49,942 INFO    Thread-146:59700 [wandb_setup.py:_flush():68] Configure stats pid to 59700
+2023-03-07 20:27:49,942 INFO    Thread-146:59700 [wandb_setup.py:_flush():68] Loading settings from /Users/albanbroze/.config/wandb/settings
+2023-03-07 20:27:49,942 INFO    Thread-146:59700 [wandb_setup.py:_flush():68] Loading settings from /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/settings
+2023-03-07 20:27:49,942 INFO    Thread-146:59700 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cme216_hw6', 'entity': 'abroze', 'root_dir': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6', 'sweep_id': 'pcu3nkat', 'run_id': 'dpeftjy3', 'sweep_param_path': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/sweep-pcu3nkat/config-dpeftjy3.yaml'}
+2023-03-07 20:27:49,942 INFO    Thread-146:59700 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-07 20:27:49,943 INFO    Thread-146:59700 [wandb_init.py:_log_setup():492] Logging user logs to /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_202749-dpeftjy3/logs/debug.log
+2023-03-07 20:27:49,943 INFO    Thread-146:59700 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_202749-dpeftjy3/logs/debug-internal.log
+2023-03-07 20:27:49,943 INFO    Thread-146:59700 [wandb_init.py:_jupyter_setup():438] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fce92187280>
+2023-03-07 20:27:49,943 INFO    Thread-146:59700 [wandb_init.py:init():532] calling init triggers
+2023-03-07 20:27:49,943 INFO    Thread-146:59700 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001, 'reg_param': 0}
+config: {}
+2023-03-07 20:27:49,943 INFO    Thread-146:59700 [wandb_init.py:init():588] starting backend
+2023-03-07 20:27:49,943 INFO    Thread-146:59700 [wandb_init.py:init():592] setting up manager
+2023-03-07 20:27:49,949 INFO    Thread-146:59700 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-07 20:27:49,954 INFO    Thread-146:59700 [wandb_init.py:init():599] backend started and connected
+2023-03-07 20:27:49,973 INFO    Thread-146:59700 [wandb_run.py:_config_callback():1250] config_cb None None {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001, 'reg_param': 0}
+2023-03-07 20:27:49,987 INFO    Thread-146:59700 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-07 20:27:49,987 INFO    Thread-146:59700 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-07 20:27:49,987 INFO    Thread-146:59700 [wandb_init.py:init():687] updated telemetry
+2023-03-07 20:27:50,031 INFO    Thread-146:59700 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-07 20:27:50,272 INFO    Thread-146:59700 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-07 20:27:50,355 INFO    Thread-146:59700 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.13.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-07 20:27:50,355 INFO    Thread-146:59700 [wandb_init.py:init():775] starting run threads in backend
+2023-03-07 20:27:55,406 WARNING MsgRouterThr:59700 [router.py:message_loop():77] message_loop has been closed
+2023-03-07 20:28:05,778 ERROR   Thread-146:59700 [wandb_init.py:init():1160] error
+Traceback (most recent call last):
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1133, in init
+    wandb._assert_is_user_process()
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 787, in init
+    run._on_init()
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 271, in wait
+wandb.errors.MailboxError: transport failed
+2023-03-07 20:28:07,787 ERROR   MainThread:59700 [pyagent.py:_run_jobs_from_queue():226] Run dpeftjy3 errored: Exception('problem')
+2023-03-07 20:28:57,895 INFO    MainThread:59700 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2023-03-07 20:29:00,281 INFO    Thread-150:59700 [wandb_setup.py:_flush():68] Configure stats pid to 59700
+2023-03-07 20:29:00,281 INFO    Thread-150:59700 [wandb_setup.py:_flush():68] Loading settings from /Users/albanbroze/.config/wandb/settings
+2023-03-07 20:29:00,281 INFO    Thread-150:59700 [wandb_setup.py:_flush():68] Loading settings from /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/settings
+2023-03-07 20:29:00,281 INFO    Thread-150:59700 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cme216_hw6', 'entity': 'abroze', 'root_dir': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6', 'sweep_id': '05vt6yc7', 'run_id': '02vh5v2v', 'sweep_param_path': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/sweep-05vt6yc7/config-02vh5v2v.yaml'}
+2023-03-07 20:29:00,281 INFO    Thread-150:59700 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-07 20:29:00,282 INFO    Thread-150:59700 [wandb_init.py:_log_setup():492] Logging user logs to /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_202900-02vh5v2v/logs/debug.log
+2023-03-07 20:29:00,282 INFO    Thread-150:59700 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_202900-02vh5v2v/logs/debug-internal.log
+2023-03-07 20:29:00,282 INFO    Thread-150:59700 [wandb_init.py:init():532] calling init triggers
+2023-03-07 20:29:00,282 INFO    Thread-150:59700 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001, 'reg_param': 0}
+config: {}
+2023-03-07 20:29:00,282 INFO    Thread-150:59700 [wandb_init.py:init():588] starting backend
+2023-03-07 20:29:00,282 INFO    Thread-150:59700 [wandb_init.py:init():592] setting up manager
+2023-03-07 20:29:00,289 INFO    Thread-150:59700 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-07 20:29:00,293 INFO    Thread-150:59700 [wandb_init.py:init():599] backend started and connected
+2023-03-07 20:29:00,312 INFO    Thread-150:59700 [wandb_run.py:_config_callback():1250] config_cb None None {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001, 'reg_param': 0}
+2023-03-07 20:29:00,320 INFO    Thread-150:59700 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-07 20:29:00,320 INFO    Thread-150:59700 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-07 20:29:00,320 INFO    Thread-150:59700 [wandb_init.py:init():687] updated telemetry
+2023-03-07 20:29:00,359 INFO    Thread-150:59700 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-07 20:29:00,650 INFO    Thread-150:59700 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-07 20:29:00,724 INFO    Thread-150:59700 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.13.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-07 20:29:00,724 INFO    Thread-150:59700 [wandb_init.py:init():775] starting run threads in backend
+2023-03-07 20:29:05,836 WARNING MsgRouterThr:59700 [router.py:message_loop():77] message_loop has been closed
+2023-03-07 20:29:16,134 ERROR   Thread-150:59700 [wandb_init.py:init():1160] error
+Traceback (most recent call last):
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1133, in init
+    wandb._assert_is_user_process()
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 787, in init
+    run._on_init()
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 271, in wait
+wandb.errors.MailboxError: transport failed
+2023-03-07 20:29:18,148 ERROR   MainThread:59700 [pyagent.py:_run_jobs_from_queue():226] Run 02vh5v2v errored: Exception('problem')
+2023-03-07 20:30:31,091 INFO    MainThread:59700 [pyagent.py:run():314] Starting sweep agent: entity=None, project=None, count=None
+2023-03-07 20:30:33,215 INFO    Thread-154:59700 [wandb_setup.py:_flush():68] Configure stats pid to 59700
+2023-03-07 20:30:33,215 INFO    Thread-154:59700 [wandb_setup.py:_flush():68] Loading settings from /Users/albanbroze/.config/wandb/settings
+2023-03-07 20:30:33,215 INFO    Thread-154:59700 [wandb_setup.py:_flush():68] Loading settings from /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/settings
+2023-03-07 20:30:33,215 INFO    Thread-154:59700 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cme216_hw6', 'entity': 'abroze', 'root_dir': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6', 'sweep_id': 'yypmfacj', 'run_id': 'bf5deoyd', 'sweep_param_path': '/Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/sweep-yypmfacj/config-bf5deoyd.yaml'}
+2023-03-07 20:30:33,215 INFO    Thread-154:59700 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-07 20:30:33,215 INFO    Thread-154:59700 [wandb_init.py:_log_setup():492] Logging user logs to /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/logs/debug.log
+2023-03-07 20:30:33,215 INFO    Thread-154:59700 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/logs/debug-internal.log
+2023-03-07 20:30:33,215 INFO    Thread-154:59700 [wandb_init.py:init():532] calling init triggers
+2023-03-07 20:30:33,216 INFO    Thread-154:59700 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001, 'reg_param': 0}
+config: {}
+2023-03-07 20:30:33,216 INFO    Thread-154:59700 [wandb_init.py:init():588] starting backend
+2023-03-07 20:30:33,216 INFO    Thread-154:59700 [wandb_init.py:init():592] setting up manager
+2023-03-07 20:30:33,220 INFO    Thread-154:59700 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-07 20:30:33,223 INFO    Thread-154:59700 [wandb_init.py:init():599] backend started and connected
+2023-03-07 20:30:33,238 INFO    Thread-154:59700 [wandb_run.py:_config_callback():1250] config_cb None None {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001, 'reg_param': 0}
+2023-03-07 20:30:33,243 INFO    Thread-154:59700 [wandb_run.py:_label_probe_notebook():1203] probe notebook
+2023-03-07 20:30:33,243 INFO    Thread-154:59700 [wandb_run.py:_label_probe_notebook():1213] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-07 20:30:33,243 INFO    Thread-154:59700 [wandb_init.py:init():687] updated telemetry
+2023-03-07 20:30:33,288 INFO    Thread-154:59700 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-07 20:30:33,554 INFO    Thread-154:59700 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-07 20:30:33,638 INFO    Thread-154:59700 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.13.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-07 20:30:33,639 INFO    Thread-154:59700 [wandb_init.py:init():775] starting run threads in backend
+2023-03-07 20:30:38,719 WARNING MsgRouterThr:59700 [router.py:message_loop():77] message_loop has been closed
+2023-03-07 20:30:48,717 ERROR   Thread-154:59700 [wandb_init.py:init():1160] error
+Traceback (most recent call last):
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 1133, in init
+    wandb._assert_is_user_process()
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 787, in init
+    run._on_init()
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/lib/mailbox.py", line 271, in wait
+wandb.errors.MailboxError: transport failed
+2023-03-07 20:30:50,726 ERROR   MainThread:59700 [pyagent.py:_run_jobs_from_queue():226] Run bf5deoyd errored: Exception('problem')

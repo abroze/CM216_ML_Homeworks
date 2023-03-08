@@ -1,0 +1,2 @@
+x shape before:  torch.Size([1024, 8, 2, 2])
+x shape after:  torch.Size([1024, 8, 2, 2])

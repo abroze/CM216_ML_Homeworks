@@ -32,8 +32,8 @@ print(device)
 # ==============================================================================
 # Loading the data
 n_data = 4608
-m_field = np.load("k_fullfield_diffusion.npy")[:n_data, :, :]
-u_field = np.load("u_fullfield_diffusion.npy")[:n_data, :, :]
+m_field = np.load("demo_data/k_fullfield_diffusion.npy")[:n_data, :, :]
+u_field = np.load("demo_data/u_fullfield_diffusion.npy")[:n_data, :, :]
 
 # Normalize the data between -1 and 1
 m_field = ((m_field - m_field.min())/(m_field.max()-m_field.min()))*2 - 1.

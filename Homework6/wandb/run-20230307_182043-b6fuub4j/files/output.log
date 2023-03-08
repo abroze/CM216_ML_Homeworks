@@ -1,0 +1,3 @@
+x init shape:  torch.Size([1024, 128, 2, 2])
+trql
+x shape:  torch.Size([4, 32768, 2, 2])

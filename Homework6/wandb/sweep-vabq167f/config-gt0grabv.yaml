@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_size:
+  value: 1024
+dim:
+  value: 64
+h_dim:
+  value: 128
+lr:
+  value: 0.001
+reg_param:
+  value: 0

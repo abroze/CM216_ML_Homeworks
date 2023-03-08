@@ -1,0 +1,42 @@
+2023-03-07 20:30:33,224 INFO    StreamThr :64957 [internal.py:wandb_internal():87] W&B internal server running at pid: 64957, started at: 2023-03-07 20:30:33.223672
+2023-03-07 20:30:33,225 DEBUG   HandlerThread:64957 [handler.py:handle_request():144] handle_request: status
+2023-03-07 20:30:33,244 INFO    WriterThread:64957 [datastore.py:open_for_write():85] open: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/run-bf5deoyd.wandb
+2023-03-07 20:30:33,244 DEBUG   SenderThread:64957 [sender.py:send():336] send: header
+2023-03-07 20:30:33,289 DEBUG   SenderThread:64957 [sender.py:send():336] send: run
+2023-03-07 20:30:33,552 INFO    SenderThread:64957 [dir_watcher.py:__init__():219] watching files in: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/files
+2023-03-07 20:30:33,553 INFO    SenderThread:64957 [sender.py:_start_run_threads():1078] run started: bf5deoyd with start time 1678249833.223622
+2023-03-07 20:30:33,553 DEBUG   SenderThread:64957 [sender.py:send_request():363] send_request: summary_record
+2023-03-07 20:30:33,553 INFO    SenderThread:64957 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-07 20:30:33,555 DEBUG   HandlerThread:64957 [handler.py:handle_request():144] handle_request: check_version
+2023-03-07 20:30:33,555 DEBUG   SenderThread:64957 [sender.py:send_request():363] send_request: check_version
+2023-03-07 20:30:33,646 DEBUG   HandlerThread:64957 [handler.py:handle_request():144] handle_request: run_start
+2023-03-07 20:30:34,562 INFO    Thread-13 :64957 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/files/wandb-summary.json
+2023-03-07 20:30:34,563 INFO    WriterThread:64957 [datastore.py:close():298] close: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/run-bf5deoyd.wandb
+2023-03-07 20:30:34,643 INFO    SenderThread:64957 [sender.py:finish():1504] shutting down sender
+2023-03-07 20:30:34,643 INFO    SenderThread:64957 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-07 20:30:35,565 INFO    SenderThread:64957 [dir_watcher.py:finish():395] scan: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/files
+2023-03-07 20:30:35,566 INFO    SenderThread:64957 [dir_watcher.py:finish():409] scan save: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/files/config.yaml config.yaml
+2023-03-07 20:30:35,566 INFO    SenderThread:64957 [dir_watcher.py:finish():409] scan save: /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/files/wandb-summary.json wandb-summary.json
+2023-03-07 20:30:35,568 INFO    SenderThread:64957 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-07 20:30:35,572 INFO    SenderThread:64957 [file_pusher.py:join():169] waiting for file pusher
+2023-03-07 20:30:36,077 INFO    wandb-upload_1:64957 [upload_job.py:push():138] Uploaded file /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/files/wandb-summary.json
+2023-03-07 20:30:36,077 INFO    wandb-upload_0:64957 [upload_job.py:push():138] Uploaded file /Users/albanbroze/Documents/Github/CME216-Homework/CME216-Machine-Learning-Homework/Homework6/wandb/run-20230307_203033-bf5deoyd/files/config.yaml
+2023-03-07 20:30:36,692 ERROR   StreamThr :64957 [internal.py:wandb_internal():175] Thread HandlerThread:
+Traceback (most recent call last):
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 49, in run
+    self._run()
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal_util.py", line 100, in _run
+    self._process(record)
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/internal.py", line 280, in _process
+    self._hm.handle(record)
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/handler.py", line 136, in handle
+    handler(record)
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/handler.py", line 146, in handle_request
+    handler(record)
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/handler.py", line 687, in handle_request_run_start
+    self._system_monitor = SystemMonitor(
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/system/system_monitor.py", line 85, in __init__
+    self.assets.extend(self._get_open_metrics_assets())
+  File "/Users/albanbroze/opt/anaconda3/lib/python3.9/site-packages/wandb/sdk/internal/system/system_monitor.py", line 103, in _get_open_metrics_assets
+    open_metrics_endpoints = self.settings._stats_open_metrics_endpoints
+AttributeError: 'SettingsStatic' object has no attribute '_stats_open_metrics_endpoints'
