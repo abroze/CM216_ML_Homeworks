@@ -50,3 +50,10 @@ def plot_perm_and_temp(m_field, u_field, model_pred, epoch):
 
     plt.tight_layout()
     wandb.log({"true_pred_pressure": fig, "epoch": epoch})
+
+def plot_rel_val_err(u_field, model_pred, epoch):
+  err = l2_pt_error(model_pred, u_field)
+  fig, ax = plt.figure()
+  ax.add_subplot(111)
+  ax.hist(err)
+  wandb.log({"relative_value_error_hist": fig, "epoch": epoch})
