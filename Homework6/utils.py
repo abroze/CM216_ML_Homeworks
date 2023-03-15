@@ -52,7 +52,7 @@ def plot_perm_and_temp(m_field, u_field, model_pred, epoch):
     plt.tight_layout()
     wandb.log({"true_pred_pressure": fig, "epoch": epoch})
 
-def plot_rel_val_err(vec, epoch):
+def plot_histogram(vec, epoch):
     err = []
     for elem in vec:
         err.append(elem)
