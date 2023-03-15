@@ -3,6 +3,7 @@ import numpy as np
 import wandb
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable
+import plotly.express as px
 
 
 def l2_pt_error(pred, true):
@@ -51,9 +52,10 @@ def plot_perm_and_temp(m_field, u_field, model_pred, epoch):
     plt.tight_layout()
     wandb.log({"true_pred_pressure": fig, "epoch": epoch})
 
-def plot_rel_val_err(u_field, model_pred, epoch):
-  err = l2_pt_error(model_pred, u_field)
-  fig, ax = plt.figure()
-  ax.add_subplot(111)
-  ax.hist(err)
-  wandb.log({"relative_value_error_hist": fig, "epoch": epoch})
+def plot_rel_val_err(vec, epoch):
+    err = []
+    for elem in vec:
+        err.append(elem)
+    fig = px.histogram(err, x_range=[0,100])
+    fig.update_layout(xaxis_title="Relative error (%)", yaxis_title="Frequency")
+    wandb.log({"relative_value_error_hist": fig, "epoch": epoch})

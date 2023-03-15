@@ -171,13 +171,13 @@ def train(config=None):
             plot_perm_and_temp(val_permeability.detach().cpu().numpy().squeeze(), 
                                 val_pressure.detach().cpu().numpy().squeeze(), 
                                 val_pressure_pred.detach().cpu().numpy().squeeze(), epoch)
-            plot_rel_val_err(val_pressure.detach().cpu().numpy().squeeze(), 
-                             val_pressure_pred.detach().cpu().numpy().squeeze(), epoch)
+
             diff_ = (val_pressure_pred - val_pressure.unsqueeze(1)).detach().cpu().numpy().squeeze()
             diff_vec = np.reshape(diff_, (diff_.shape[0], -1))
             val_l2_pt_error = np.mean(np.linalg.norm(diff_vec, axis=1) / np.linalg.norm(np.reshape(val_pressure.detach().cpu().numpy(), (val_pressure.shape[0], -1)), axis=1), axis=0) * 100
             val_indiv_rel_error = np.linalg.norm(diff_vec, axis=1) / np.linalg.norm(np.reshape(val_pressure.detach().cpu().numpy(), (val_pressure.shape[0], -1)), axis=1) * 100
-            #table = wandb.Table(val_indiv_rel_error, "val_indiv_rel_error")
+
+            plot_histogram(val_indiv_rel_error, epoch)
 
             wandb.log({"val_loss": val_loss.item(), "train_loss": loss.item(), "val_rel_error_pt": val_l2_pt_error, "val_indiv_rel_error_pt": val_indiv_rel_error, "epoch": epoch})
             print (f"Epoch [{epoch+1}/{num_epochs}], Step [{i+1}/{total_step}], \
